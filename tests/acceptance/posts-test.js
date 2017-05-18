@@ -20,11 +20,19 @@ test('visiting /posts', function(assert) {
   });
 });
 
-test('I can view 10 posts', function(assert) {
+test('I can view 20 posts in main route', function(assert) {
+  server.createList('posts', 20);
+
+  visit('/');
+  andThen(function() {
+    assert.equal( find('a').length, 20 );
+  });
+});
+
+test('I can view 10 posts in post route', function(assert) {
   server.createList('posts', 10);
 
   visit('/posts/1');
-
   andThen(function() {
     assert.equal( find('a').length, 10 );
   });
