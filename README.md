@@ -1,6 +1,6 @@
 # Example-mirage
 
-Thanks for checking out this example! This example goes over how to use Ember CLI Mirage. Check out [ProgramWithErik](http://www.programwitherik.com) for more information!
+Thanks for checking out this example! This example goes over how to use Ember CLI Mirage. It's based on the example of [ProgramWithErik](http://www.programwitherik.com) but modified to work correctly by fixing bower dependencies and adding acceptance tests.
 
 ## Prerequisites
 
@@ -16,22 +16,27 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * change into the new directory
-* `npm install`
+* `npm install`   (this will return errors)
 * `bower install`
+*  select option 3
 
 ## Running / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+* Visit specific posts at [http://localhost:4200/posts/1](http://localhost:4200/posts/1).
 
 ### Code Generators
 
 Make use of the many generators for code, try `ember help generate` for more details
+* Note:  to install Acceptance tests please use:   #ember g acceptance-test posts
+* Content of files can be find in Erick posts
 
 ### Running Tests
 
 * `ember test`
 * `ember test --server`
+*  Note:  check out the acceptance tests for validating Mirage create list mechanism
 
 ### Building
 
