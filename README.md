@@ -1,6 +1,6 @@
 # Example-mirage
 
-Thanks for checking out this example! This example goes over how to use Ember CLI Mirage. It's based on the example of [ProgramWithErik](http://www.programwitherik.com) but modified to work correctly by fixing bower dependencies and adding acceptance tests.
+Thanks for checking out this example! This example goes over how to use Ember CLI Mirage. It's based on the example of [ProgramWithErik](http://www.programwitherik.com) but modified to work correctly by fixing bower dependencies and adding acceptance tests.  It also attempts to add a second model named User and show it as part of the UX for acceptance testing.
 
 ## Prerequisites
 
@@ -25,6 +25,11 @@ You will need the following things properly installed on your computer.
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit specific posts at [http://localhost:4200/posts/1](http://localhost:4200/posts/1).
+
+## Current Issues
+
+I updated the project to use two models (and additional "user" model to show names) and also "fixtures" instead of fakers.  Fixtures are fixed test cases (you can uncomment fakers to see how they behave).   The Mirage API mocks are sending the right data but there's an issue with the UX not showing data from the second model but just empty links.  I'm trying to solve that and any help will be strongly welcomed. 
+
 
 ### Code Generators
 
