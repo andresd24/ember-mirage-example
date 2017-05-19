@@ -4,17 +4,15 @@
 	{{#link-to 'posts' post.id}}{{post.title}}{{/link-to}}<br>
 {{/each}}
 <br>
+</p>
+
 <h4>Users</h4>
 <p>
   {{#each users as |user|}}
-    <span>{{user.lastName}}</span>
-    {{#link-to 'users' user.id}}{{user.firstName}}empty names good links{{/link-to}}<br>
+    {{#link-to 'users' user.id}}{{user.firstName}}empty names - good links{{/link-to}}<br>
   {{/each}}
   <br>
 </p>
-
-</p>
-
 
 {{outlet}}
 

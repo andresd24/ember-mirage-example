@@ -21,6 +21,7 @@ export default function() {
 
 
 
+
 //single data
   this.get('/posts/:id', function(db, request) {
     let id = request.params.id;
