@@ -10,11 +10,9 @@ export default Mirage.Factory.extend({
   // age: 20,                              // numbers
   // tall: true,                           // booleans
 
-  // email: function(i) {                  // and functions
-  //   return 'person' + i + '@test.com';
-  // },
+ // email: function(i) {                  // and functions
+ //    return 'person' + i + '@test.com';/ },
 
-  // firstName: faker.name.firstName,       // using faker
-  // lastName: faker.name.firstName,
-  // zipCode: faker.address.zipCode
+   firstName: faker.name.firstName,       // using faker
+   lastName: faker.name.firstName,
 });
