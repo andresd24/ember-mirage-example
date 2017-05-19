@@ -1,6 +1,6 @@
 # Example-mirage
 
-This example of ember-mirage goes it's based on the example of [ProgramWithErik - Ember CLI Mirage Tutorial](/Users/Andres/Code/ember-mirage-example/app/controllers/application.js) but modified to work correctly by fixing bower dependencies and adding acceptance tests.  It also attempts to add a second model named User and show it as part of the UX for acceptance testing (this is work in progress and accepting fix suggestions - see below)
+This example of ember-mirage goes it's based on the example of [ProgramWithErik - Ember CLI Mirage Tutorial](http://www.programwitherik.com/ember-mirage-tutorial-and-examples/) but modified to work correctly by fixing bower dependencies and adding acceptance tests.  It also attempts to add a second model named User and show it as part of the UX for acceptance testing (this is work in progress and accepting fix suggestions - see below)
 
 ## Prerequisites
 
